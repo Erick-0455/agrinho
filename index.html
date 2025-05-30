@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos do Campo</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Projetos do Campo</h1>
+            <h1>Projetos Sustentáveis no Campo</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#projetos">Nossos Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
@@ -21,75 +22,75 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <section id="hero">
             <div class="container">
-                <h2>Conectando a Inovação ao Campo</h2>
-                <p>Desenvolvendo soluções sustentáveis para o agronegócio e comunidades rurais.</p>
-                <a href="#projetos" class="btn">Conheça Nossos Projetos</a>
+                <h2>Inovação e Desenvolvimento para o Agronegócio</h2>
+                <p>Trabalhamos para transformar o campo com soluções que promovem a sustentabilidade e a prosperidade.</p>
+                <a href="#projetos" class="btn">Conheça nossos projetos</a>
             </div>
         </section>
 
-        <section id="projetos" class="projetos-section">
+        <section id="sobre">
             <div class="container">
-                <h2>Nossos Projetos</h2>
-                <div class="projeto-grid">
-                    <div class="projeto-card">
-                        <h3>Agricultura Familiar Sustentável</h3>
-                        <p>Apoiamos pequenos produtores com técnicas de cultivo orgânico e comercialização justa.</p>
-                        <ul>
-                            <li>Manejo do Solo</li>
-                            <li>Rotação de Culturas</li>
-                            <li>Mercado Local</li>
-                        </ul>
+                <h2>Sobre Nós</h2>
+                <p>Nossa missão é impulsionar o crescimento do setor agrícola através de projetos inovadores e ecologicamente responsáveis. Acreditamos que a tecnologia e o conhecimento são as chaves para um futuro mais verde e produtivo no campo.</p>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <img src="./imagens/missao.jpg" alt="Missão">
+                        <h3>Nossa Missão</h3>
+                        <p>Desenvolver e implementar soluções agrícolas que otimizem a produção e preservem os recursos naturais.</p>
                     </div>
-                    <div class="projeto-card">
-                        <h3>Tecnologia no Campo</h3>
-                        <p>Implementação de drones e sensores para otimização de recursos e aumento da produtividade.</p>
-                        <ul>
-                            <li>Monitoramento de Lavoura</li>
-                            <li>Irrigação Inteligente</li>
-                            <li>Análise de Dados</li>
-                        </ul>
+                    <div class="about-item">
+                        <img src="./imagens/visao.jpg" alt="Visão">
+                        <h3>Nossa Visão</h3>
+                        <p>Ser referência em projetos de sustentabilidade e inovação para o agronegócio em nível nacional e internacional.</p>
                     </div>
-                    <div class="projeto-card">
-                        <h3>Educação Rural e Capacitação</h3>
-                        <p>Oferecemos cursos e workshops para jovens e adultos do meio rural, focando em novas tecnologias e gestão.</p>
-                        <ul>
-                            <li>Cursos de Pecuária</li>
-                            <li>Gestão de Propriedades</li>
-                            <li>Empreendedorismo Rural</li>
-                        </ul>
+                    <div class="about-item">
+                        <img src="./imagens/valores.jpg" alt="Valores">
+                        <h3>Nossos Valores</h3>
+                        <p>Sustentabilidade, inovação, ética, colaboração e respeito ao meio ambiente e às comunidades rurais.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contato" class="contato-section">
+        <section id="projetos">
             <div class="container">
-                <h2>Entre em Contato</h2>
-                <p>Tem alguma dúvida ou gostaria de colaborar? Fale conosco!</p>
-                <form action="#" method="POST">
-                    <div class="form-group">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" required>
+                <h2>Nossos Projetos</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="./imagens/irrigacao_inteligente.jpg" alt="Projeto Irrigação Inteligente">
+                        <h3>Sistema de Irrigação Inteligente</h3>
+                        <p>Otimização do uso da água através de sensores e automação, resultando em economia e maior produtividade.</p>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                    <div class="project-card">
+                        <img src="./imagens/pecuaria_sustentavel.jpg" alt="Projeto Pecuária Sustentável">
+                        <h3>Pecuária Sustentável</h3>
+                        <p>Implementação de práticas que reduzem o impacto ambiental da criação de gado, melhorando o bem-estar animal.</p>
                     </div>
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <div class="project-card">
+                        <img src="./imagens/agricultura_organica.jpg" alt="Projeto Agricultura Orgânica">
+                        <h3>Agricultura Orgânica</h3>
+                        <p>Apoio e fomento à produção de alimentos orgânicos, promovendo a saúde do solo e dos consumidores.</p>
                     </div>
-                    <button type="submit" class="btn">Enviar Mensagem</button>
-                </form>
+                    <div class="project-card">
+                        <img src="./imagens/energia_solar.jpg" alt="Projeto Energia Solar Rural">
+                        <h3>Energia Solar Rural</h3>
+                        <p>Instalação de painéis solares para comunidades rurais, reduzindo custos e promovendo energia limpa.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Projetos do Campo. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Projetos Sustentáveis no Campo. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
         </div>
     </footer>
 </body>
